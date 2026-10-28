@@ -1,7 +1,7 @@
 (function () {
     // For local testing. When you deploy to Render, change this to your live URL
     // e.g., const backendOrigin = "https://di-verse-api.onrender.com";
-    const backendOrigin = "https://di-verse-backend.onrender.com";
+    const backendOrigin = ("https://di-verse-backend.onrender.com");
 
     async function request(path, options = {}) {
         let response;
